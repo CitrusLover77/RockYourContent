@@ -1,14 +1,29 @@
 "use client";
 import React from "react";
-import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaLinkedinIn,
+  FaWhatsapp,
+  FaEnvelope,
+} from "react-icons/fa";
 
-export default function NavBar() {
+export default function Footer() {
   return (
-    <nav className="navbar">
-      <div className="navbar-left">
-        <img src="/logo.png" alt="RockYourContentLogo" className="logo-img" />
+    <footer className="Footer">
+      <div className="footer-left">
+        <img
+          src="rockLogoH.png"
+          alt="RockYourContentLogoHorizontal"
+          className="logo-img"
+        />
       </div>
-      <div className="navbar-right">
+      <div className="footer-right">
+        <a href="aronlopezseca@gmail.com" className="icon-btn">
+          <FaEnvelope />
+        </a>
+        <a href="2235281227" className="icon-btn">
+          <FaWhatsapp />
+        </a>
         <a
           href="https://www.instagram.com/rock.your.content?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
           className="icon-btn"
@@ -28,6 +43,6 @@ export default function NavBar() {
           <FaLinkedinIn />
         </a>
       </div>
-    </nav>
+    </footer>
   );
 }

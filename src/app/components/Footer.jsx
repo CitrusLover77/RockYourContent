@@ -9,7 +9,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="Footer">
+    <footer className="Footer" id="footer">
       <div className="footer-left">
         <img
           src="rockLogoH.png"

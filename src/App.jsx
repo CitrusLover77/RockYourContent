@@ -20,7 +20,7 @@ export default function LandingPage() {
                 className="cta-button"
                 onClick={() => {
                   document
-                    .querySelector("cta.section")
+                    .querySelector("#footer")
                     ?.scrollIntoView({ behavior: "smooth" });
                 }}
               >
